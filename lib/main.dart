@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/grid_games.dart';
 import 'package:myapp/home_screen.dart';
 import 'package:myapp/inscription.dart';
-import 'package:myapp/single_game.dart';
+import 'package:myapp/details_screen.dart';
+import 'package:myapp/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +21,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const inscription());
+        home: grid_games());
   }
 }
